@@ -1,0 +1,763 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+.lblHeader{
+	background-color: skyblue;
+	color: white;
+	font-size: 20px;
+}
+.blue{
+	color: blue;
+}
+.greencolor{
+	color: green;
+}
+.redcolor{
+	color: red;
+}
+.blueBackground{
+	background-color: powderblue;
+	color:white;
+	font-size: 18px;
+}
+.blueBold{
+	color: blue;
+	font-weight: bold;
+}
+.blueBold1{
+	color: red !important;
+	font-weight: bold;
+}
+.form-row{
+	margin: 6px 0 0 5px;
+	padding: 5px  0 3px 0;
+	border-bottom: 1px dotted #ddd;
+}
+
+
+
+
+
+.heading{
+	width:400px;
+ font-size: 20px;
+ margin-top:1px;
+ margin-left: 5px;
+ margin-bottom: 1px;
+ color:#003366;
+ font-family:  Arial, Helvetica, sans-serif;
+}
+
+#loginArea{
+  margin-left: 550px;
+  margin-top:100px;
+
+ width: 400px;
+ 
+}
+
+.border{
+  width: 500px;
+  height: 250px;
+  margin-left: 25px;
+  background-color: #F0F0F0;
+ }
+ 
+
+.headerSignin{
+ 
+ color:#311ccc;
+ font-size: 17px;
+ font-family:  Engravers MT;
+ padding:3px;
+ height: 30px;
+
+}
+
+.headerSigninSmall{
+ background-color:#003366;
+ color:white;
+ font-size: 12px;
+ font-family:  Engravers MT;
+ padding:3px;
+ height: 20px;
+
+}
+
+.fieldsStyle{
+   margin-left: 30px;
+   padding-left: 10px;
+   
+}
+
+.errorFields {
+color:red;
+}
+
+.register{
+	font-size: 10px;
+	
+	cursor: pointer;
+  margin-top:7px;
+  color:blue;
+  margin-left:5px;
+  height:10px;
+ width: 100px;
+display: inline-block;
+ font:Times New Roman; 
+   
+
+}
+.hover{
+	cursor: pointer;
+}
+
+.btnStyle{
+    
+   font:arial; 
+  color:white;
+ 
+ padding:3px;
+  line-height: 0px;
+ text-align: center;
+ background-color: #64b5f6 ;
+ cursor: pointer;
+ border-radius:4px;
+ width: 80px;
+ height: 28px;
+ 
+}
+
+.btnStyleDelete{
+    
+   font:arial; 
+  color:white;
+ 
+ padding:3px;
+  line-height: 0px;
+ text-align: center;
+ background-color: #cc352a ;
+ cursor: pointer;
+ border-radius:4px;
+ width: 80px;
+ height: 28px;
+ 
+}
+.btnStyleReOpen{
+    
+   font:arial; 
+  color:white;
+ 
+ padding:3px;
+  line-height: 0px;
+ text-align: center;
+ background-color: #4ed22d ;
+ cursor: pointer;
+ border-radius:4px;
+ width: 80px;
+ height: 28px;
+ 
+}
+
+.linkStyle{
+    
+   font:arial; 
+  color:blue;
+ margin-left: 35px;
+margin-top:0px;
+ padding:3px;
+ 
+
+ 
+}
+.mainPanel{
+ padding-left:200px;
+  width : 727px;
+  
+}
+
+.btnStyle:hover{
+    
+ border: 1px solid #003366 ;
+ cursor: pointer;
+  
+}
+.btnStyle:active{
+    border: 1px solid #aaa;
+  
+}
+
+.anchorStyle:hover{
+ font-size:14px;
+ 
+}
+.register:hover{
+ text-decoration:underline;
+ color:blue;
+}
+.linkStyle:hover{
+  text-color:blue;
+  cursor:pointer;
+}
+/** Creation client */
+
+.body{
+	height:500px;
+	width:825px;
+	margin-top: 1px !important;
+	margin-left: 15px;
+	padding-top: 1px !important;
+	padding-left: 1px;
+	background-color: lightsteelblue;
+	border-radius:4px;
+	border: 1px solid gray;
+}
+
+.name{
+	width:810px;
+	height:30px;
+	padding-left: 3px;
+	padding-top: 3px;
+	border:1px solid;
+	border: 1px dotted gray;
+	border-radius:4px;
+	
+}
+.inLine{
+	display: inline-block;
+	color:blue;
+	margin-left:2px;
+}
+
+.analysis{
+	width:300px;
+	height:50px;
+	margin-top:100px;
+	float:right;
+		
+}
+
+.textbox{
+	
+}
+.information{
+	width:400px;
+	height:160px;
+	float:left;
+	margin-right:10px;
+	margin-top:1px;
+	border: 1px dotted gray;
+	position:relative;
+	border-radius:4px;
+	color:blue;
+}
+.client{
+	width:395px;
+	height:170px;
+	float:left;
+ 	position:relative;
+	margin-top: 10px;
+	border: 1px dotted gray;
+	background-color: white;
+	border-radius:4px;
+}
+.principle{
+	width:385px;
+	height:110px;
+	float:right;
+	margin-top:10px;
+	position:relative;
+}
+.listbox{
+	margin-top: 6px;
+	width:276px;
+	background-color: #F0F0F0 ;
+	color:blue;
+	position:relative;
+	border-radius:4px;
+	border: 1px solid gray;
+}
+.listbox1{
+	margin-top: 6px;
+	width:276px;
+	background-color: white;
+	color:blue;
+	position:relative;
+	border-radius:4px;
+	border: 1px solid gray;
+}
+.labelsmargin{
+	margin-top: 6px;
+		text-align: right;
+		width:110px;
+		padding-right:8px;
+		color:blue;
+	}
+
+.labeltop{
+	float:right;
+	width:400px;
+	margin-top: -16px;
+}
+
+/** search screen  */
+.vlayout{
+	margin-left:200px;
+	
+}
+.tabset{
+	border:1px;
+}
+
+
+/** search screen  */
+.vlayout{
+	margin-left:300px;
+	margin-top:100px
+	
+}
+.tabset{
+	border:1px;
+}
+.whitelayout{
+	margin-top:50px;
+	margin-left:10px;
+	float:left;
+}
+.lboxlayout{
+	margin-top:1px;
+	margin-left:1px;
+	float:left;
+}
+.btnlayout{
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+}
+.editCell{
+	color: blue !important;
+	cursor: pointer !important;
+}
+.whitebg{
+	background-color: white;
+}
+.white{
+	color: white;
+}
+.bluebg{
+	background-color: blue;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+<!--
+LOGIN FORM UIIIII   -->::selection {
+	color: #fff;
+	background: #f676b2; /* Safari */
+}
+
+::-moz-selection {
+	color: #fff;
+	background: #f676b2; /* Firefox */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.backLogin {
+	background: url(images/bg.png) repeat !important;
+	font-family: Century Gothic, CenturyGothic, AppleGothic,sans-serif !important;
+	font-weight: 300 !important;
+	text-align: left !important;
+	text-decoration: none !important;
+}
+
+#text {
+	width: 400px;
+	height: 270px;
+	position: absolute;
+	padding: 11px 20px;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	border-radius: 5px;
+	left: 50%;
+	top: 40%;
+	margin-left: -450px;
+	margin-top: -150px;
+	font-weight: 50;
+	font-size: 18px;
+	line-height: 24px;
+	color: gray;
+}
+
+#wrapper {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: 100px;
+	margin-top: -220px;
+}
+
+/*.gradient {
+	width: 600px;
+	height: 600px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -300px;
+	background: url(../images/gradient.png) no-repeat;
+}*/
+.gradient {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	/* Fallback */
+	background-image: url(images/gradient.png);
+	background-repeat: no-repeat;
+	/* CSS3 Gradient */
+	background-image: -webkit-gradient(radial, 0% 0%, 0% 100%, from(rgba(213, 246, 255, 0)),
+		to(rgba(213, 246, 255, 0)));
+	background-image: -webkit-radial-gradient(50% 50%, 40% 40%, rgba(213, 246, 255, 0),
+		rgba(213, 246, 255, 0));
+	background-image: -moz-radial-gradient(50% 50%, 50% 50%, rgba(213, 246, 255, 0),
+		rgba(213, 246, 255, 0));
+	background-image: -ms-radial-gradient(50% 50%, 50% 50%, rgba(213, 246, 255, 0),
+		rgba(213, 246, 255, 0));
+	background-image: -o-radial-gradient(50% 50%, 50% 50%, rgba(213, 246, 255, 0),
+		rgba(213, 246, 255, 0));
+}
+
+.login-form {
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 5;
+	background: #424242;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	box-shadow: 10px 6px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-form .headerLogin {
+	padding: 15px 30px 30px 30px;
+}
+
+.login-form .headerLogin h1 {
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 34px;
+	color: #fff;
+	text-shadow: 0px 0px 0 rgba(256, 256, 256, 1.0);
+	margin-bottom: 10px;
+}
+
+.login-form .headerLogin span {
+	font-size: 12px;
+	line-height: 16px;
+	color: #fff;
+}
+
+.login-form .content {
+	padding: 0 30px 25px 30px;
+}
+
+/* Input field */
+.login-form .content .input {
+	width: 188px;
+	padding: 15px 25px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #9d9e9e;
+	text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+}
+
+/* Second input field */
+.login-form .content .password, .login-form .content .pass-icon {
+	margin-top: 25px;
+}
+
+.login-form .content .input:hover {
+	background: #dfe9ec;
+	color: #414848;
+}
+
+.login-form .content .input:focus {
+	background: #dfe9ec;
+	color: #414848;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.user-icon, .pass-icon {
+	width: 46px;
+	height: 47px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	padding-right: 2px;
+	z-index: 3;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+.user-icon {
+	top: 250px;
+	/* Positioning fix for slide-in, got lazy to think up of simpler method. */
+	background: rgba(65, 72, 72, 0.75) url(images/user-icon.png) no-repeat
+		center;
+}
+
+.pass-icon {
+	top: 320px;
+	background: rgba(65, 72, 72, 0.75) url(images/pass-icon.png) no-repeat
+		center;
+}
+
+/* Animation */
+.input, .user-icon, .pass-icon, .button, .register {
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+
+.login-form .footer {
+	padding: 25px 30px 40px 30px;
+	overflow: auto;
+	background: #00aeef;
+	border-top: 1px solid #fff;
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.login-form .footer .button {
+	width: 188px;
+	padding: 10px 25px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #000;
+	text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.25);
+	background: #fff;
+	border: 1px solid #424242;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: inset 0 2px 2px rgba(256, 256, 256, 0.75);
+	-moz-box-shadow: inset 0 2px 2px rgba(256, 256, 256, 0.75);
+	-webkit-box-shadow: inset 0 2px 2px rgba(256, 256, 256, 0.75);
+}
+
+.login-form .footer .button:hover {
+	background: #424242;
+	color: #fff;
+	border: 1px solid rgba(256, 256, 256, 0.75);
+	box-shadow: inset 0 2px 1px rgba(3, 228, 252, 0.75);
+	-moz-box-shadow: inset 0 2px 1px rgba(3, 228, 252, 0.75);
+	-webkit-box-shadow: inset 0 2px 1px rgba(3, 228, 252, 0.75);
+}
+
+.login-form .footer .button:focus {
+	position: relative;
+	bottom: -1px;
+	background: #56c2e1;
+	box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Register button */
+.login-form .footer .register {
+	margin-top: 10px;
+	cursor: pointer;
+	background: none;
+	border: none;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 50;
+	font-size: 16px;
+	color: #fff;
+	text-shadow: 0px 0px 0 rgba(256, 256, 256, 0.5);
+}
+
+.login-form .footer .register:hover {
+	color: #03e4fc;
+}
+
+.login-form .footer .register:focus {
+	position: relative;
+	bottom: -1px;
+}
+
+.footer-distributed {
+	height: 115px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	z-index: 250000;
+	background-color: #f9f9f9;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	text-align: left;
+	font: 'Century Gothic', CenturyGothic, AppleGothic, sans-seriff;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 5px 25px;
+}
+
+.footer-distributed .footer-left p {
+	color: #9d6000;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+.footer-distributed p.footer-links {
+	font-size: 18px;
+	font-weight: 300;
+	color: #f05822;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-right {
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #424242;
+	border-radius: 2px;
+	font-size: 20px;
+	padding: 5px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 10px;
+	margin-left: 3px;
+}
+
+<!--
+DASHBOARD UIII    -->ol, ul {
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	overflow: hidden;
+	margin: 0em auto;
+	width: 1200px;
+	margin-bottom: 12px;
+}
+td, th {
+  padding: 2px 5px !important;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 2px; }
+
+.dashboardButton {
+	display: inline-block;
+	padding: 1em 2em 1em 2em;
+	background: #0173B2;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.90em;
+	color: #FFF;
+}
+
+.centerPanel {
+	position: relative;
+	padding: 0em 3em;
+	
+}
+
+#logo {
+	position: absolute;
+	left: 0;
+	float: left;
+	margin-top: -70px;
+}
+
+.gwt-TabBar .gwt-TabBarItem-selected{
+	color:#e8d385 !important;
+	background-color: white !important;
+}
+.gwt-TabBar .gwt-TabBarItem{
+	background: #1f1f65 !important;
+	border-radius: 1px 7px 1px 1px;
+}
+.redBackground{
+	background-color: red;
+	color:red;
+	
+}

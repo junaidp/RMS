@@ -1,0 +1,82 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	.column{
+	 
+	margin-left: 25%;
+	
+}
+.header{
+	margin-left: -1%;
+	padding-left:40%;
+}
+.button {
+	margin-left: 77%;
+	margin-bottom:20px;
+}
+.row
+{
+	margin-top:10%;
+}
+	</ui:style>
+
+	<g:HTMLPanel  >
+		<!-- <div class="header">
+			<!-- <g:Label text="APPLICATION NAME " styleName="heading" /> -->
+		
+
+		<div class="loginArea" ui:field="loginArea">
+			<m:MaterialRow height="150px"  addStyleNames="{style.row}"  >
+				<g:Label />
+				<m:MaterialColumn styleName="border" width="500px" addStyleNames="{style.column}" >
+					<g:HTMLPanel styleName="headerSignin" height="30px"  addStyleNames="{style.header}"
+						width="500px">
+						Sign in
+					</g:HTMLPanel>
+
+					<m:MaterialColumn styleName="fieldsStyle">
+						<m:MaterialRow width="290px">
+							<g:Label ui:field="lblError" styleName="errorFields"
+								height="16px" width="279px" />
+						</m:MaterialRow>
+						<g:Label ui:field=" lblUserName " width="50px" styleName="h1"
+							text="Username">
+							username
+						</g:Label>
+						<m:MaterialRow>
+							<g:TextBox ui:field="txtUserName" width="250px" height="20px" />
+							<g:Hyperlink styleName="register">
+							</g:Hyperlink>
+						</m:MaterialRow>
+					</m:MaterialColumn>
+
+					<m:MaterialColumn styleName="fieldsStyle">
+						<g:Label ui:field=" lblPassword " width="50px" text="Password">
+							passwords
+						</g:Label>
+						<m:MaterialRow>
+							<g:PasswordTextBox ui:field="txtPassword"
+								width="250px" height="20px" />
+							<g:Hyperlink styleName="register"></g:Hyperlink>
+						</m:MaterialRow>
+					</m:MaterialColumn>
+					<m:MaterialRow>
+						<m:MaterialRow width="500px"></m:MaterialRow>
+						<m:MaterialButton ui:field="btnSubmit" text="Sign in " addStyleNames="{style.button}">
+							
+						</m:MaterialButton>
+						
+
+					</m:MaterialRow>
+
+				</m:MaterialColumn>
+			</m:MaterialRow>
+		</div>
+	</g:HTMLPanel>
+
+</ui:UiBinder> 

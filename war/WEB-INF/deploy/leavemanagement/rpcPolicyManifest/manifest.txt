@@ -1,0 +1,3 @@
+# Module leavemanagement
+# RPC service class, partial path of RPC policy file
+com.leavemanagement.client.GreetingService, 45448CE51CC8C394744E79EA234827F5.gwt.rpc
